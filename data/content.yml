@@ -1,0 +1,172 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Abhijith CB"
+
+  # animated text loop
+  occupations:
+    - 'Hardware Research and Development Engineer'
+    - 'Alumnus of Amrita Vishwa Vidyapeetham (B.Tech, ECE, 2025)'
+    - 'Ex-Student Intern @ Amrita Mind Brain Center'
+    - 'Ex-Team Lead @ Team bi0s'
+    - 'Ex-Mitacs Globalink Research Intern @ University of Windsor'
+
+  # hero background image
+  bg_image: 'images/DSC02344.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: images/DSC02339.jpg
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/IMG_4928.HEIC.jpg'
+  title: '👋 THIS IS ME'
+  content: |
+    Hi there! Thanks for stopping by my corner of the internet.  
+    If you have any questions, opportunities, or just want to talk tech,  
+    feel free to reach out via LinkedIn, GitHub, or email —  
+    I promise I reply faster than most coffee machines brew.  
+    [Say hello](#contact)!
+  button:
+    enable: true
+    label: 'DOWNLOAD MY CV'
+    link: #  # Change to your actual resume path
+    icon: 'fa-download'
+
+
+########################### Experience ##############################
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Student Intern – Hardware Research and Development
+      company: Amrita Mind and Brain Center
+      duration: '2024–2025'
+      content: |
+        Conducting research on biologically inspired neuron models and their hardware implementation using Verilog HDL. Built a cerebellum-based neural network for robotic arm control and developed a wearable ESP32-based system for precise human gait analysis and neural prosthetics support.
+
+    - name: Team Lead & Mentor – Hardware Division
+      company: Team bi0s, Cybersecurity Research Group
+      duration: '2022–2025'
+      content: |
+        Led embedded systems and hardware reverse engineering initiatives within India’s leading student cybersecurity team. Mentored juniors on Circuit analysis, signal processing, and prototyping. Delivered workshops on Arduino basics, PCB design, and system-level debugging.
+
+    - name: Research Intern (Mitacs Globalink Research Internship)
+      company: University of Windsor – e-minds Lab
+      duration: '2024'
+      content: |
+        Led fabrication and characterization of Organic Feild Effect Transisitors and Piezoelectric Micromachined Ultrasonic Transducers using advanced tools like impedance analyzers, SMUs, and probe stations. Applied statistical techniques like ANOVA and Tukey’s HSD for data analysis. Delivered high-precision ultrasonic testing and collaborated effectively in a global research setting.
+
+    - name: Community Service (Live-in-Labs®)
+      company: Amrita SeRVe Program, Wavanje Village
+      duration: '2024'
+      content: |
+         Conducted well-being surveys, and facilitated digital literacy and health awareness sessions on tuberculosis, menstrual hygiene, and nutrition. Helped bridge the digital divide in underserved communities.
+    - name: Instructor – Student Social Responsibility (SSR)
+      company: Amrita Vishwa Vidyapeetham
+      duration: '2024'
+      content: |
+        Designed and delivered peer-led study sessions on Circuit Theory and Electronic Devices. Trained students in circuit simulation using Proteus and helped peers improve their fundamentals in electronics.
+
+ 
+    - name: Hardware Security Researcher
+      company: Redantio Solutions Pvt Ltd
+      duration: '2023'
+      content: |
+        Designed and built SDR hardware including LNAs, filters, and GPS-synchronized RF setups. Worked with devices like NI B204-mini and HackRF for LoRa signal analysis. Used GNU Radio and SDR++ for real-time decoding and urban RF noise testing under multi-device configurations.
+
+    - name: Challenge Author & Design Engineer
+      company: IC3 Global Cybersecurity Event (Team bi0s)
+      duration: '2023'
+      content: |
+        Designed and developed custom circuit boards with ESP32-S3 and E-Ink displays. Authored CTF hardware challenges involving sequential logic and embedded communication protocols. Built driver and power management circuits using Altium Designer and oversaw board-level testing.
+
+    - name: Event Operations Lead – Cleanup Drive
+      company: Amritavarsham’70
+      duration: '2023'
+      content: |
+        Led an eight-member operations team during Amritavarsham’70. Ensured proper waste management and environmental hygiene across a large-scale spiritual and cultural gathering.
+
+    - name: Speaker – Deep Dive into Hardware Hacking
+      company: Team bi0s Outreach
+      duration: '2023'
+      content: |
+        Delivered sessions on PCB reverse engineering and firmware analysis. Guided first-year students through embedded system prototyping and introduced them to practical hardware cybersecurity skills.
+
+    
+############################### Skill #################################
+skill:
+  enable: false
+  title: 'TECHNICAL SKILLS'
+  showpercent: false
+  skill_list:
+    - name: 'Verilog HDL'
+    - name: 'C / C++'
+    - name: 'Python'
+    - name: 'MATLAB'
+    - name: 'Embedded Systems Design'
+    - name: 'Hardware Security & Reverse Engineering'
+    - name: 'Signal Processing'
+    - name: 'RF & SDR (GNU Radio, SDR++)'
+    - name: 'PCB Design (Altium, KiCAD)'
+    - name: 'FPGA Development (Artix-7, ModelSim)'
+    - name: 'MEMS & Nanotechnology'
+    - name: 'Proteus / LTSpice Simulation'
+    - name: 'COMSOL / ANSYS HFSS'
+    - name: 'Git & GitHub'
+
+######################### funfacts #############################3
+funfacts:
+  enable: false
+  funfacts_list:
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '2'
+
+    - name: 'SITES BUILT'
+      image: 'images/icons/web-development.png'
+      count: '25'
+
+    - name: 'USELESS ROW OF ICONS'
+      image: 'images/icons/happy.png'
+      count: '1'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'PROJECTS'
+  portfolio_list:
+    - name: 'Cerebellum-Inspired Robotic Arm Control'
+      image: 'images/portfolio/robotic-arm.jpeg'
+      description: |
+        Modeled a cerebellum-like spiking neural network using Verilog HDL. Controlled a 6-DOF robotic arm via signals decoded from biceps and triceps EMG electrodes for neuroprosthetic applications.
+
+    - name: 'Human Gait Analysis System'
+      image: 'images/portfolio/7.png'
+      description: |
+        Designed a wearable ESP32-based device using accelerometers, gyros, encoders, and force sensors to analyze gait in patients with Parkinson’s or limb loss. Enables motion prediction and mobility support.
+
+    
+    - name: 'PrecisionWave (GPSDO)'
+      image: 'images/portfolio/gpsdo.jpg'
+      description: |
+        Developed a GPS-disciplined oscillator using ATmega328p for synchronizing multiple SDRs. Delivered a stable 10 MHz clock for high-precision RF data collection and signal localization.
+
+    - name: 'Wireless Forensics Toolkit'
+      image: 'images/portfolio/foresics.jpg'
+      description: |
+        Built an SDR-to-computer interface for real-time LoRa signal demodulation using FFTs, whitening, interleaving, and GNU Radio. Enabled robust analysis of intercepted wireless packets.
+
+    - name: 'IC3 Shield'
+      image: 'images/portfolio/IC3.jpg'
+      description: |
+        Designed a challenge PCB for the IC3 global event using ESP32-S3 and an E-Ink display. Authored embedded CTF challenges and implemented custom power/display circuits on Altium Designer.
+
+    - name: 'PIKey Pro'
+      image: 'images/portfolio/pikeypro.jpg'
+      description: |
+        Built a mechanical keyboard using Raspberry Pi Pico with macro support and a 1" OLED screen. Custom PCB layout with 68-key matrix for productivity and hacking use cases.
+
+    - name: 'Raptor (USB Samurai)'
+      image: 'images/portfolio/usb2.png'
+      description: |
+        Created a remote HID injection tool using nRF52840 and RP2040 + SIM700 for GSM-based OTA access. Exploited USB dongle vulnerabilities to execute payloads wirelessly via Logitech receivers.

@@ -1,0 +1,27 @@
+{{ define "main" }} {{- partial "menu.html" . -}}
+
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Gallery</h2>
+      </div>
+    </div>
+    <div class="row gallery-grid">
+      {{ range .Site.Data.gallery.images }}
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <a href="{{ .image | relURL }}" target="_blank">
+            <img src="{{ .image | relURL }}" class="card-img-top" alt="{{ .title }}">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{ .title }}</h5>
+            <p class="card-text">{{ .description }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{- partial "footer.html" . -}} {{ end }}

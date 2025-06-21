@@ -1,0 +1,28 @@
+images:
+  - image: 'images/gallery/_N9A1778.JPG'
+    description: 'Kavach 2023'
+  - image: 'images/gallery/_N9A1784.JPG'
+    description: 'My team at Kavach 2023'
+  - image: 'images/gallery/mitacs.jpg'
+    description: 'Mitacs Globalink Research Interns Ana Karen Graciano Alvarez, Felix Antonio Cepeda García and me at University of Windsor'
+  - image: 'images/gallery/pvd.jpg'
+    description: 'PVD Coating of a sillicon wafer at University of Windsor'
+  - image: 'images/gallery/livein labs.jpg'
+    description: 'Me and my team in Live-in-Labs® Program at Mumbai, India'
+  - image: 'images/gallery/gang.JPG'
+    description: 'My and my friends at Amrita Vishwa Vidyapeetham'
+  - image: 'images/gallery/clg.jpg'
+    description: 'Class of ECE 2025 at Amrita Vishwa Vidyapeetham'
+  - image: 'images/gallery/liveinlabs2.jpg'
+    description: 'Me and my team at Mumbai, India'
+  - image: 'images/gallery/hobby4.jpg'
+    description: 'Few hobbies of mine'
+  - image: 'images/gallery/hobby5.jpg'
+    description: 'Few hobbies of mine'
+  - image: 'images/gallery/hobby2.jpg'
+    description: 'Modded mechanical keyboard with custom switches and dampeners for keycaps'
+  - image: 'images/gallery/hobby3.jpg'
+    description: 'Modded mechanical keyboard custom keycaps'
+
+
+  
