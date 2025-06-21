@@ -150,9 +150,9 @@
   function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
     if (img.indexOf('light.png') != -1) {
-      document.getElementById(id).src = '/images/dark.png';
+      document.getElementById(id).src = '/abhijithcb.github.io/images/dark.png';
     } else {
-      document.getElementById(id).src = '/images/light.png';
+      document.getElementById(id).src = '/abhijithcb.github.io/images/light.png';
     }
   }
 
