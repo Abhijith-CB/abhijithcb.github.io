@@ -157,7 +157,11 @@
   }
 
   // Styling Menu on Scroll
-  if (window.location.pathname === '/') {
+  if (
+  window.location.pathname === '/' ||
+  window.location.pathname.endsWith('/abhijithcb.github.io') ||
+  window.location.pathname === '/abhijithcb.github.io/'
+) {
     $('.about-me').waypoint({
       handler: function (direction) {
         // Changing Menu background after leaving Header Section
