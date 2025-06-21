@@ -57,8 +57,8 @@ description = "Personal Website"
 author = "Abhijith CB"
 favicon = "/images/favicon.jpg"
 google_analytics = "G-ABCDEFG123"
-logo_light = "images/light.png"
-logo_dark = "images/dark.png"
+logo_light = "/images/light.png"
+logo_dark = "/images/dark.png"
 
 # Preloader
 [params.preloader]
