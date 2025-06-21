@@ -55,10 +55,10 @@ copyright = "Hey, I took it out from Hugo. You can do it too "
 # Meta data
 description = "Personal Website"
 author = "Abhijith CB"
-favicon = "/images/favicon.jpg"
+favicon = "/abhijithcb.github.io/images/favicon.jpg"
 google_analytics = "G-ABCDEFG123"
-logo_light = "/images/light.png"
-logo_dark = "/images/dark.png"
+logo_light = "/abhijithcb.github.io/images/light.png"
+logo_dark = "/abhijithcb.github.io/images/dark.png"
 
 # Preloader
 [params.preloader]
